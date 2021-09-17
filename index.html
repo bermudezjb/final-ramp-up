@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joel Bermudez Web Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+</head>
+<body>
+   <section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo joe.png" alt=""></a>
+            <div class="nav-links" id="nav.links">
+                <span class="material-icons-outlined" onclick="hideMenu()">close</span>
+               <ul>
+                   <li><a href="">HOME</a></li>
+                   <li><a href="">ABOUT ME</a></li>
+                   <li><a href="">PORTFOLIO</a></li>
+                   <li><a href="">CONTACT</a></li>                   
+               </ul>
+           </div>
+              <span class="material-icons-outlined" onclick="showMenu">menu</span>
+       </nav>
+
+    <div class="text-box">
+        <h1>Hello, I'm Joel Bermudez Quiroga.</h1>
+        <p>I'm a full-stack developer</p>
+        <a href="" class="hero-btn" >Click here to know me more</a>
+
+    </div>
+
+   </section> 
+<!-- course ---------------- -->
+
+<section class="course"> 
+    <h2>PORTFOLIO</h2>
+   <p>Below you can see some projects I've been working on lately. I divide each project into four follow-up areas: comprehensive research, wireframing, design & development. This process allows me to create great product with client goals in mind.</p>
+   <div class="row">
+       <div class="portfolio-col">
+           <h3>JavaScript</h3>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at neque aperiam magnam quisquam. Consequatur ipsum beatae ipsa sunt quae delectus, autem laborum mollitia qui reprehenderit, ad quam. Itaque, dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo aliquid tenetur nesciunt harum laudantium dignissimos, earum deserunt facilis dolore quod, similique perferendis? Reiciendis doloribus facilis dicta nesciunt aliquam ipsum quasi.</p>
+       <div class="portfolio-col">
+           <h3>Node JS</h3>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at neque aperiam magnam quisquam. Consequatur ipsum beatae ipsa sunt quae delectus, autem laborum mollitia qui reprehenderit, ad quam. Itaque, dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo aliquid tenetur nesciunt harum laudantium dignissimos, earum deserunt facilis dolore quod, similique perferendis? Reiciendis doloribus facilis dicta nesciunt aliquam ipsum quasi.</p>
+       <div class="portfolio-col">
+           <h3>MongoDB</h3>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at neque aperiam magnam quisquam. Consequatur ipsum beatae ipsa sunt quae delectus, autem laborum mollitia qui reprehenderit, ad quam. Itaque, dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo aliquid tenetur nesciunt harum laudantium dignissimos, earum deserunt facilis dolore quod, similique perferendis? Reiciendis doloribus facilis dicta nesciunt aliquam ipsum quasi.</p>
+       <div class="portfolio-col">
+           <h3>JavaScript</h3>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at neque aperiam magnam quisquam. Consequatur ipsum beatae ipsa sunt quae delectus, autem laborum mollitia qui reprehenderit, ad quam. Itaque, dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo aliquid tenetur nesciunt harum laudantium dignissimos, earum deserunt facilis dolore quod, similique perferendis? Reiciendis doloribus facilis dicta nesciunt aliquam ipsum quasi.</p>
+
+
+       </div>
+   </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- -----------java for toggle menu---------- -->
+   <script>
+       var navlinks = document.getElementById("navlinks");
+       function showMenu(){
+           navlinks.style.right = "0"
+
+       }
+       function hideMenu(){
+           navlinks.style.right = "-200px"
+
+       }
+
+   </script>
+
+
+
+
+
+</body>
+</html>
